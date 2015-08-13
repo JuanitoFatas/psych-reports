@@ -1,0 +1,1169 @@
+Booting: production
+Endpoint: "/"
+Running 100 times
+Total allocated: 568550798 bytes (4532166 objects)
+Total retained:  115307 bytes (690 objects)
+
+allocated memory by gem
+-----------------------------------
+ 274491900  activerecord-4.2.3
+ 163887583  ruby-2.2.2/lib
+  30332408  activesupport-4.2.3
+  13499438  redis-3.2.1
+  12823700  [REDACTED]/app
+  11914467  actionview-4.2.3
+  10288000  i18n-0.7.0
+   7766433  newrelic_rpm-3.12.1.298
+   6543360  paperclip-4.3.0
+   6374100  intercom-rails-0.2.28
+   5817600  enumerize-1.0.0
+   5738500  actionpack-4.2.3
+   3795200  activemodel-4.2.3
+   2778300  arel-6.0.2
+   2736000  other
+   2521100  rack-1.6.4
+   1339000  nokogiri-1.6.6.2
+   1124400  simple_form-3.1.0
+   1091200  thread_safe-0.3.5
+    556000  warden-1.2.3
+    505700  rails_utils-3.2.1
+    450700  meta-tags-2.0.0
+    349300  omniauth-1.2.2
+    300000  hashie-3.4.2
+    215400  devise-3.5.1
+    204800  loofah-2.0.2
+    149500  railties-4.2.3
+    148800  redis-activesupport-4.1.1
+    126400  tzinfo-1.2.2
+    123600  sprockets-rails-2.3.2
+    111600  temple-0.7.6
+     92300  heroku-deflater-0.5.3
+     88000  rack-rewrite-1.5.1
+     75609  json-1.8.3
+     32000  rails-html-sanitizer-1.0.2
+     26400  fog-1.32.0
+     24000  searchkick-0.9.0
+     20000  turbolinks-2.5.3
+     20000  jquery-fileupload-rails-0.4.1
+     16000  font-awesome-sass-4.3.2.1
+     16000  sprockets-3.2.0
+     16000  delayed_paperclip-2.9.1
+      8000  rack-cors-0.4.0
+      8000  crummy-1.8.0
+      4000  s3ff-0.12.3
+
+allocated memory by file
+-----------------------------------
+ 150929400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb
+  63973200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb
+  30216000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb
+  28728000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/class_loader.rb
+  26461600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb
+  14116000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb
+  13115438  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb
+  12874000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb
+  12693800  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb
+  12115200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb
+  10168100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/layouts/application.slim
+   9276000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/tree_builder.rb
+   8999200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods.rb
+   8620800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb
+   8287200  /Users/Juan/.gem/ruby/2.2.2/gems/i18n-0.7.0/lib/i18n.rb
+   7833600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute.rb
+   7820000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb
+   7488100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql_adapter.rb
+   6208160  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb
+   5398200  /Users/Juan/.gem/ruby/2.2.2/gems/intercom-rails-0.2.28/lib/intercom-rails/auto_include_filter.rb
+   4740800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/associations/preloader/association.rb
+   4245600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb
+   3993600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/to_ruby.rb
+   3833700  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb
+   3618300  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb
+   3152000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/serialized.rb
+   3126400  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/translation_helper.rb
+   2807800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/time_value.rb
+   2736000  (eval)
+   2640000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/utils.rb
+   2608400  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tag_helper.rb
+   2513600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb
+   2341600  /Users/Juan/.gem/ruby/2.2.2/gems/activemodel-4.2.3/lib/active_model/attribute_methods.rb
+   2142400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/relation.rb
+   2118500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb
+   2108100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/query_methods.rb
+   2022400  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/base.rb
+   2018400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/associations.rb
+   1980800  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/hash_with_indifferent_access.rb
+   1813440  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/inflector/methods.rb
+   1697900  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb
+   1468800  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb
+   1432480  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb
+   1414400  /Users/Juan/.gem/ruby/2.2.2/gems/activemodel-4.2.3/lib/active_model/dirty.rb
+   1411400  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb
+   1344000  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/value.rb
+   1344000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/handlers/document_stream.rb
+   1317600  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb
+   1307200  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/attribute.rb
+   1298400  /Users/Juan/.gem/ruby/2.2.2/gems/i18n-0.7.0/lib/i18n/exceptions.rb
+
+allocated memory by location
+-----------------------------------
+ 148973300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+  28728000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/class_loader.rb:21
+  23972000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:116
+  18188000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+  14700000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:134
+  14233200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:74
+   9452100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/layouts/application.slim:1
+   9134500  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:172
+   8352000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:73
+   8027200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods.rb:359
+   8008000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:26
+   7740000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:30
+   7443200  /Users/Juan/.gem/ruby/2.2.2/gems/i18n-0.7.0/lib/i18n.rb:311
+   7361816  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb:49
+   6720000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:133
+   6585600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql_adapter.rb:438
+   5937600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute.rb:5
+   5613520  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb:33
+   5331000  /Users/Juan/.gem/ruby/2.2.2/gems/intercom-rails-0.2.28/lib/intercom-rails/auto_include_filter.rb:49
+   5288000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+   5148000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/tree_builder.rb:75
+   5107200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:369
+   4653135  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb:28
+   4584000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:21
+   4492800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:500
+   4245600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:69
+   4180000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+   4036800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:18
+   4032000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:318
+   3997800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb:220
+   3381600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb:547
+   3340800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:46
+   2964700  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:81
+   2736000  (eval):3
+   2596800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb:114
+   2532000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:24
+   2325600  /Users/Juan/.gem/ruby/2.2.2/gems/activemodel-4.2.3/lib/active_model/attribute_methods.rb:219
+   2280000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:370
+   2160000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/utils.rb:67
+   2018400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/associations.rb:162
+   2015300  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:260
+   1809600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:55
+   1760000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/serialized.rb:19
+   1745700  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb:27
+   1464000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:16
+   1432480  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb:131
+   1404000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:512
+   1404000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:315
+   1403200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/associations/preloader/association.rb:65
+   1392000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb:5
+
+allocated memory by class
+-----------------------------------
+ 236025856  String
+ 115456240  Hash
+  56579648  Array
+  41302240  MatchData
+  17824900  ActiveSupport::SafeBuffer
+  13380504  RubyVM::Env
+  11115128  Thread::Backtrace
+  10078016  Proc
+   7849600  Method
+   5937600  ActiveRecord::Attribute::FromDatabase
+   5148000  Psych::Nodes::Scalar
+   3897600  Psych::Parser
+   2736000  Psych::Nodes::Sequence
+   2736000  Psych::Nodes::Document
+   2664554  Regexp
+   2486880  Time
+   2343200  ActiveSupport::HashWithIndifferentAccess
+   1809600  Psych::Visitors::YAMLTree
+   1528800  ActiveRecord::Associations::BelongsToAssociation
+   1464000  ActiveRecord::LazyAttributeHash
+   1368000  Psych::ClassLoader
+   1368000  Psych::ScalarScanner
+   1368000  Psych::Nodes::Stream
+   1267200  StringIO
+   1252800  Psych::Visitors::YAMLTree::Registrar
+   1209600  Psych::Handlers::DocumentStream
+   1209600  Psych::Visitors::ToRuby
+   1049728  Thread
+    950928  NewRelic::Agent::Stats
+    816000  Review
+    792000  ActiveRecord::Attribute::FromUser
+    739200  Shop
+    732000  ActiveRecord::AttributeSet
+    696000  Psych::TreeBuilder
+    696000  Psych::Visitors::Emitter
+    696000  Psych::Emitter
+    657600  ActiveRecord::Relation
+    652800  User
+    572000  Arel::Nodes::Casted
+    564000  Rational
+    489600  ActiveRecord::Associations::HasOneAssociation
+    440000  Enumerize::Set
+    440000  NewRelic::Agent::Transaction::TraceNode
+    371200  Nokogiri::XML::NodeSet
+    352800  NewRelic::Agent::TracedMethodFrame
+    326400  ActiveSupport::Notifications::Event
+    309600  ActiveSupport::Callbacks::Filters::Environment
+    294400  Identity
+    293200  ActionView::OutputBuffer
+    232000  NewRelic::Agent::Database::Statement
+
+allocated objects by gem
+-----------------------------------
+   1732478  ruby-2.2.2/lib
+   1709800  activerecord-4.2.3
+    311117  activesupport-4.2.3
+    140611  actionview-4.2.3
+    120600  enumerize-1.0.0
+     90228  newrelic_rpm-3.12.1.298
+     66300  actionpack-4.2.3
+     60900  arel-6.0.2
+     47119  paperclip-4.3.0
+     34200  other
+     30800  rack-1.6.4
+     26700  activemodel-4.2.3
+     23800  i18n-0.7.0
+     22500  [REDACTED]/app
+     21298  redis-3.2.1
+     16400  nokogiri-1.6.6.2
+     16100  simple_form-3.1.0
+      7800  intercom-rails-0.2.28
+      6300  rails_utils-3.2.1
+      5700  warden-1.2.3
+      5700  hashie-3.4.2
+      5300  meta-tags-2.0.0
+      4700  omniauth-1.2.2
+      3200  loofah-2.0.2
+      2700  devise-3.5.1
+      2200  thread_safe-0.3.5
+      2200  tzinfo-1.2.2
+      2200  rack-rewrite-1.5.1
+      1800  railties-4.2.3
+      1800  sprockets-rails-2.3.2
+      1500  temple-0.7.6
+      1500  heroku-deflater-0.5.3
+      1200  redis-activesupport-4.1.1
+      1115  json-1.8.3
+       800  rails-html-sanitizer-1.0.2
+       600  searchkick-0.9.0
+       500  turbolinks-2.5.3
+       400  font-awesome-sass-4.3.2.1
+       400  jquery-fileupload-rails-0.4.1
+       400  sprockets-3.2.0
+       400  delayed_paperclip-2.9.1
+       300  fog-1.32.0
+       200  crummy-1.8.0
+       200  rack-cors-0.4.0
+       100  s3ff-0.12.3
+
+allocated objects by file
+-----------------------------------
+    785100  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb
+    365200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb
+    237800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb
+    189600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb
+    159400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb
+    156500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb
+    150000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute.rb
+    144300  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/tree_builder.rb
+    141600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb
+    100500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql_adapter.rb
+     94700  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb
+     93500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods.rb
+     90300  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb
+     86900  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb
+     84000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/to_ruby.rb
+     78800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/serialized.rb
+     57800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/associations/preloader/association.rb
+     49900  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/query_methods.rb
+     47600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/time_value.rb
+     43200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb
+     42900  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb
+     42019  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb
+     40700  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb
+     35812  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb
+     35100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tag_helper.rb
+     34200  (eval)
+     34200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/class_loader.rb
+     33600  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/value.rb
+     30400  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/attribute.rb
+     30400  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/base.rb
+     30000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/utils.rb
+     26600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/relation.rb
+     25300  /Users/Juan/.gem/ruby/2.2.2/gems/arel-6.0.2/lib/arel/visitors/to_sql.rb
+     24500  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb
+     24100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/translation_helper.rb
+     21200  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/hash_with_indifferent_access.rb
+     20000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/reflection.rb
+     19800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/associations.rb
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb
+     16800  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/subscriber.rb
+     16800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/handlers/document_stream.rb
+     15800  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb
+     15200  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/attribute_map.rb
+     15200  /Users/Juan/.gem/ruby/2.2.2/gems/activemodel-4.2.3/lib/active_model/dirty.rb
+     14700  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/associations/belongs_to_association.rb
+     14500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/quoting.rb
+     14300  /Users/Juan/.gem/ruby/2.2.2/gems/arel-6.0.2/lib/arel/nodes.rb
+     14098  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb
+     13300  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb
+     12801  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/inflector/methods.rb
+
+allocated objects by location
+-----------------------------------
+    343600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+    243600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:74
+    111400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute.rb:5
+    105000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:133
+    104900  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+    104500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+    102600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:21
+     78400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql_adapter.rb:438
+     74000  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:81
+     71400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb:220
+     70200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:500
+     69600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:46
+     69200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods.rb:359
+     63300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:24
+     58500  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/tree_builder.rb:75
+     57000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:370
+     52500  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:134
+     52200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:73
+     44000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/serialized.rb:19
+     38100  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb:27
+     36818  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb:33
+     35812  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb:131
+     35100  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:512
+     35100  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:315
+     34800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/serialized.rb:26
+     34800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb:5
+     34200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/tree_builder.rb:66
+     34200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/tree_builder.rb:22
+     34200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:27
+     34200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/class_loader.rb:21
+     34200  (eval):3
+     34200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:26
+     33600  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/value.rb:21
+     33600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:318
+     33600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:369
+     31400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+     26800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:42
+     22500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:35
+     22000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute.rb:50
+     20700  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:17
+     20600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:162
+     20600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:110
+     19800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/reflection.rb:110
+     19800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/associations.rb:162
+     19600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql_adapter.rb:433
+     19200  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:260
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:116
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb:546
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb:547
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/persistence.rb:69
+
+allocated objects by class
+-----------------------------------
+   1717057  String
+   1196210  Array
+    418320  Hash
+    147508  MatchData
+    111400  ActiveRecord::Attribute::FromDatabase
+     96904  Proc
+     96703  RubyVM::Env
+     89200  Method
+     58500  Psych::Nodes::Scalar
+     34200  Psych::Nodes::Document
+     34200  Psych::ScalarScanner
+     34200  Psych::Nodes::Stream
+     34200  Psych::ClassLoader
+     34200  Psych::Nodes::Sequence
+     26705  Time
+     18300  ActiveRecord::LazyAttributeHash
+     18300  ActiveRecord::AttributeSet
+     17600  StringIO
+     17400  Psych::Visitors::YAMLTree::Registrar
+     17400  Psych::Visitors::YAMLTree
+     17400  Psych::TreeBuilder
+     17400  Psych::Emitter
+     17400  Psych::Visitors::Emitter
+     16800  Psych::Parser
+     16800  Psych::Visitors::ToRuby
+     16800  Psych::Handlers::DocumentStream
+     14700  ActiveRecord::Associations::BelongsToAssociation
+     14300  Arel::Nodes::Casted
+     14100  Rational
+     11000  Enumerize::Set
+     11000  ActiveRecord::Attribute::FromUser
+     10806  NewRelic::Agent::Stats
+     10100  ActiveSupport::HashWithIndifferentAccess
+      8500  ActiveSupport::SafeBuffer
+      6000  Review
+      5900  ActiveRecord::Relation
+      5100  User
+      5100  ActiveRecord::Associations::HasOneAssociation
+      5000  NewRelic::Agent::Transaction::TraceNode
+      4901  Regexp
+      4900  NewRelic::Agent::TracedMethodFrame
+      4806  NewRelic::MetricSpec
+      4300  ActiveSupport::Callbacks::Filters::Environment
+      4200  Shop
+      3400  ActiveSupport::Notifications::Event
+      3400  I18n::MissingTranslation
+      3000  ActiveRecord::ConnectionAdapters::PostgreSQL::Name
+      2800  ActiveRecord::Attribute::Null
+      2800  ActiveRecord::Type::Value
+      2404  Thread::Backtrace
+
+retained memory by gem
+-----------------------------------
+    106715  newrelic_rpm-3.12.1.298
+      4000  activesupport-4.2.3
+      3122  activerecord-4.2.3
+       966  ruby-2.2.2/lib
+       232  intercom-rails-0.2.28
+       232  actionpack-4.2.3
+        40  rack-1.6.4
+
+retained memory by file
+-----------------------------------
+     64000  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_event_aggregator.rb
+     23976  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb
+      4440  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace.rb
+      4160  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace_node.rb
+      4000  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_controller_subscriber.rb
+      4000  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb
+      2802  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb
+      2320  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_sampler.rb
+      1525  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb
+       855  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/stats_engine/stats_hash.rb
+       766  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/timeout.rb
+       494  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb
+       345  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb
+       320  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb
+       232  /Users/Juan/.gem/ruby/2.2.2/gems/intercom-rails-0.2.28/lib/intercom-rails/auto_include_filter.rb
+       232  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb
+       200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb
+       168  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb
+       120  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb
+       112  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_sample_builder.rb
+        40  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/request.rb
+
+retained memory by location
+-----------------------------------
+     60000  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_event_aggregator.rb:215
+     23200  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:128
+      4312  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace.rb:53
+      4000  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_controller_subscriber.rb:85
+      4000  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb:131
+      4000  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_event_aggregator.rb:153
+      2802  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+      2320  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_sampler.rb:198
+      2320  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace_node.rb:119
+      1840  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace_node.rb:31
+      1525  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+       855  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/stats_engine/stats_hash.rb:39
+       766  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/timeout.rb:0
+       494  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+       320  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+       232  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:23
+       232  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:24
+       232  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:248
+       232  /Users/Juan/.gem/ruby/2.2.2/gems/intercom-rails-0.2.28/lib/intercom-rails/auto_include_filter.rb:67
+       232  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:27
+       232  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb:256
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+       128  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace.rb:21
+       120  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+       113  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb:337
+       112  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_sample_builder.rb:50
+        88  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb:283
+        80  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:42
+        80  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:48
+        40  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb:911
+        40  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:22
+        40  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+        40  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb:174
+        40  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:26
+        40  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/request.rb:329
+
+retained memory by class
+-----------------------------------
+     86296  Hash
+     14373  String
+      5840  Array
+      4400  NewRelic::Agent::Transaction::TraceNode
+      2320  NewRelic::Agent::Database::Statement
+       654  Regexp
+       528  NewRelic::Agent::Stats
+       256  RubyVM::Env
+       232  OpenSSL::X509::Store
+       208  Proc
+       112  NewRelic::Agent::Transaction::Trace
+        88  NewRelic::Agent::Transaction::Attributes
+
+retained objects by gem
+-----------------------------------
+       560  newrelic_rpm-3.12.1.298
+       100  activesupport-4.2.3
+        18  activerecord-4.2.3
+         7  ruby-2.2.2/lib
+         2  intercom-rails-0.2.28
+         2  actionpack-4.2.3
+         1  rack-1.6.4
+
+retained objects by file
+-----------------------------------
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_event_aggregator.rb
+       105  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_controller_subscriber.rb
+        51  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace.rb
+        44  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace_node.rb
+        17  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb
+        10  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb
+        10  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_sampler.rb
+        10  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb
+         9  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/stats_engine/stats_hash.rb
+         8  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb
+         5  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb
+         5  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb
+         3  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb
+         3  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/timeout.rb
+         2  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb
+         2  /Users/Juan/.gem/ruby/2.2.2/gems/intercom-rails-0.2.28/lib/intercom-rails/auto_include_filter.rb
+         2  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/request.rb
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_sample_builder.rb
+
+retained objects by location
+-----------------------------------
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_event_aggregator.rb:215
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:128
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_event_aggregator.rb:153
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb:131
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_controller_subscriber.rb:85
+        49  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace.rb:53
+        34  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace_node.rb:31
+        17  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+        10  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+        10  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_sampler.rb:198
+        10  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace_node.rb:119
+        10  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+         9  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/stats_engine/stats_hash.rb:39
+         8  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+         5  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+         3  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+         2  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace.rb:21
+         2  /Users/Juan/.gem/ruby/2.2.2/gems/intercom-rails-0.2.28/lib/intercom-rails/auto_include_filter.rb:67
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:42
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:48
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/timeout.rb:0
+         2  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/routing/route_set.rb:248
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb:174
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb:283
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb:337
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb:256
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb:911
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:22
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:24
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:26
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:27
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_sample_builder.rb:50
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/request.rb:329
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/attributes.rb:23
+
+retained objects by class
+-----------------------------------
+       267  String
+       215  Hash
+       134  Array
+        50  NewRelic::Agent::Transaction::TraceNode
+        10  NewRelic::Agent::Database::Statement
+         6  NewRelic::Agent::Stats
+         2  Proc
+         2  RubyVM::Env
+         1  OpenSSL::X509::Store
+         1  Regexp
+         1  NewRelic::Agent::Transaction::Trace
+         1  NewRelic::Agent::Transaction::Attributes
+
+
+Allocated String Report
+-----------------------------------
+     66326  ""
+     19600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql_adapter.rb:433
+     17400  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:46
+      8400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+      2400  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tag_helper.rb:146
+      2000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/query_methods.rb:868
+      1600  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_controller/metal/url_for.rb:41
+      1200  /Users/Juan/.gem/ruby/2.2.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:396
+      1200  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb:28
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb:319
+       700  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:77
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/command_helper.rb:27
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/object/blank.rb:117
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/rails_utils-3.2.1/lib/rails_utils.rb:6
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb:274
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb:49
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb:44
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:41
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/asset_url_helper.rb:147
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/asset_url_helper.rb:128
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/http/url.rb:196
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/simple_form-3.1.0/lib/simple_form/inputs/base.rb:172
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/hashie-3.4.2/lib/hashie/mash.rb:259
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/i18n-0.7.0/lib/i18n/backend/base.rb:38
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/request.rb:379
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:37
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/asset_tag_helper.rb:239
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/nokogiri-1.6.6.2/lib/nokogiri/xml/node_set.rb:194
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/asset_url_helper.rb:176
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb:93
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/meta-tags-2.0.0/lib/meta_tags/meta_tags_collection.rb:138
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/asset_tag_helper.rb:63
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/form_tag_helper.rb:843
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/devise-3.5.1/lib/devise/strategies/authenticatable.rb:172
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/inflector/methods.rb:96
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:248
+       100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/layouts/application.slim:53
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router/utils.rb:16
+       100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/layouts/application.slim:44
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/simple_form-3.1.0/lib/simple_form/form_builder.rb:436
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router/utils.rb:18
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/simple_form-3.1.0/lib/simple_form/wrappers/many.rb:23
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rails_utils-3.2.1/lib/rails_utils.rb:37
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/http/url.rb:238
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/http/url.rb:143
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router/utils.rb:20
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tags/base.rb:114
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tags/base.rb:98
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tags/base.rb:118
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tags/base.rb:14
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/storage/fog.rb:48
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb:101
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/meta-tags-2.0.0/lib/meta_tags/text_normalizer.rb:30
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/turbolinks-2.5.3/lib/turbolinks/x_domain_blocker.rb:15
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/turbolinks-2.5.3/lib/turbolinks/x_domain_blocker.rb:14
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/http/request.rb:272
+       100  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/uri/common.rb:372
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/rack/browser_monitoring.rb:35
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/javascript_instrumentor.rb:90
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/http/request.rb:209
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/railties-4.2.3/lib/rails/engine.rb:516
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:109
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/mock.rb:107
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/mock.rb:102
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/mock.rb:97
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/deflater.rb:48
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/meta-tags-2.0.0/lib/meta_tags/meta_tags_collection.rb:126
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb:668
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/uri.rb:15
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/mock.rb:131
+         6  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/protocol.rb:172
+         5  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/http/response.rb:54
+         3  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/uri/generic.rb:209
+         3  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/openssl/buffering.rb:333
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/openssl/ssl.rb:203
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/http/header.rb:349
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb:506
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/openssl/buffering.rb:444
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/protocol.rb:67
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/openssl/buffering.rb:47
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/openssl/buffering.rb:316
+
+     52200  "Array"
+     52200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:74
+
+     52200  "String"
+     52200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:74
+
+     36700  "_"
+     34800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:74
+       700  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/inflector/methods.rb:97
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/rails_utils-3.2.1/lib/rails_utils.rb:6
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/form_helper.rb:459
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/form_tag_helper.rb:872
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/simple_form-3.1.0/lib/simple_form/inputs/base.rb:97
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tags/base.rb:94
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tags/base.rb:114
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/http/headers.rb:92
+
+     35500  "::"
+     34800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:74
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/intercom-rails-0.2.28/lib/intercom-rails/proxy.rb:8
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_controller_subscriber.rb:76
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/inflector/methods.rb:76
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/devise-3.5.1/lib/devise/strategies/authenticatable.rb:171
+
+     35100  "<<"
+     35100  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:315
+
+     34000  "---\n- International\n"
+     12000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb:27
+      6000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:46
+      6000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:17
+      4000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+      4000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:35
+      2000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+     23900  "id"
+     11000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/write.rb:71
+      9200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+      1000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:162
+      1000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:110
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/primary_key.rb:51
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb:33
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/hash/keys.rb:12
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tags/base.rb:91
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/hash/keys.rb:34
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/hash_with_indifferent_access.rb:259
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/hash_with_indifferent_access.rb:68
+
+     23700  "products"
+      6300  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/attribute_map.rb:11
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/base.rb:100
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods.rb:237
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+      2100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:148
+      2100  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/base.rb:109
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:162
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:110
+
+     21000  "International"
+      8400  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+      8400  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:42
+      4200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:370
+
+     19800  "5"
+     19800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+     18900  "shipping_locations"
+      4700  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/attribute_map.rb:11
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/base.rb:100
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods.rb:237
+       500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/dirty.rb:148
+       500  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/base.rb:109
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:162
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:110
+
+     18300  "initialize"
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:81
+
+     18300  "find"
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:81
+
+     18300  "_find_callbacks"
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:81
+
+     18300  "_initialize_callbacks"
+     18300  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/callbacks.rb:81
+
+     17400  "utf-8"
+     17400  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:46
+
+     17400  "visit_Array"
+     17400  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:74
+
+     17400  "visit_String"
+     17400  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/yaml_tree.rb:74
+
+     17400  "plan"
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/base.rb:100
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/attribute_map.rb:11
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+      4200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods.rb:237
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:162
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:110
+
+     14700  "1"
+     14400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb:131
+
+     13000  "--- []\n"
+      5200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+      5200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:35
+      2600  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+     11304  "/"
+      1800  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/http/url.rb:52
+      1200  /Users/Juan/.gem/ruby/2.2.2/gems/omniauth-1.2.2/lib/omniauth/strategy.rb:396
+       900  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/lookup_context.rb:175
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:77
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:78
+       700  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/inflector/methods.rb:93
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/renderer/partial_renderer.rb:521
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/renderer/partial_renderer.rb:417
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/lookup_context.rb:181
+       500  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/object/to_query.rb:41
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/asset_url_helper.rb:134
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/request.rb:329
+       200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/uri/rfc2396_parser.rb:155
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb:677
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/mock.rb:90
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/visitors.rb:48
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router/utils.rb:17
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:41
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router/utils.rb:18
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/uri.rb:15
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb:173
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/cookies.rb:284
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/railties-4.2.3/lib/rails/application.rb:524
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:109
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/gtg/simulator.rb:32
+       100  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/uri/rfc2396_parser.rb:150
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/path/pattern.rb:165
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb:679
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/journey/router/utils.rb:20
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/http/header.rb:317
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/http/header.rb:325
+
+     11200  "4"
+     11200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+     10100  "f"
+     10100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+     10100  "updated_at"
+      4900  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+      2800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_methods/read.rb:85
+      1000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:110
+      1000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:162
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb:33
+
+      9900  "home_gifts"
+      3600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:42
+      3600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+      1800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:370
+       900  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/value.rb:21
+
+      9400  "string"
+      9200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb:220
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:41
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/simple_form-3.1.0/lib/simple_form/inputs/string_input.rb:8
+
+      9000  "3"
+      8200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb:131
+
+      8500  "---\n- home_gifts\n"
+      3000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb:27
+      1500  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:46
+      1500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:17
+      1000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+      1000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:35
+       500  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+      8400  "dresses"
+      3200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:42
+      3200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+      1600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:370
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/value.rb:21
+
+      8200  "free"
+      4100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:35
+      4100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+      7902  "2"
+      7300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+       601  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb:131
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/http/header.rb:165
+
+      7800  "US"
+      2000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:48
+      2000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:47
+      2000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+      1000  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:370
+       700  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/value.rb:21
+
+      7000  "integer"
+      7000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/core.rb:220
+
+      6800  "---\n- dresses\n"
+      2400  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb:27
+      1200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:46
+      1200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:17
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:35
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+      6800  "---\n- US\n"
+      2400  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/visitors/emitter.rb:27
+      1200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/nodes/node.rb:46
+      1200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:17
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+       800  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/type/string.rb:35
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+
+      6500  "shop_id"
+      6100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:110
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:162
+
+      6200  "reviewer_id"
+      6000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:162
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/result.rb:110
+
+      6200  "time"
+      6200  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/object/acts_like.rb:8
+
+      6200  "acts_like_time?"
+      6200  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/object/acts_like.rb:8
+
+      6200  "bags"
+      1600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:48
+      1600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:47
+      1600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+       800  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:370
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/enumerize-1.0.0/lib/enumerize/value.rb:21
+
+      6100  "shop"
+      6100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/reflection.rb:110
+
+      6100  "approved"
+      6000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/quoting.rb:120
+
+      6000  "reviewer"
+      6000  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/reflection.rb:110
+
+      5903  "identity"
+      5100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/reflection.rb:110
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb:270
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb:277
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb:269
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/heroku-deflater-0.5.3/lib/heroku-deflater/serve_zipped_assets.rb:21
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/deflater.rb:44
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/http/header.rb:17
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb:188
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/http/header.rb:165
+
+      5703  " "
+      3300  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tag_helper.rb:163
+      1000  /Users/Juan/.gem/ruby/2.2.2/gems/arel-6.0.2/lib/arel/visitors/to_sql.rb:780
+       400  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:41
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/asset_tag_helper.rb:239
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/tag_helper.rb:180
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/meta-tags-2.0.0/lib/meta_tags/meta_tags_collection.rb:120
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/simple_form-3.1.0/lib/simple_form/wrappers/many.rb:60
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/meta-tags-2.0.0/lib/meta_tags/meta_tags_collection.rb:122
+       100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/shared/_modal.slim:1
+       100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/home/index.slim:1
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/meta-tags-2.0.0/lib/meta_tags/text_normalizer.rb:71
+         3  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/net/http/response.rb:56
+
+      5604  "."
+      2400  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/subscriber.rb:99
+      1900  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/translation_helper.rb:94
+       500  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/digestor.rb:21
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/simple_form-3.1.0/lib/simple_form/inputs/base.rb:177
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/utils.rb:673
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/predicate_builder.rb:40
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/relation/predicate_builder.rb:97
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/paperclip-4.3.0/lib/paperclip/interpolations.rb:45
+         2  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/openssl/ssl.rb:198
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/openssl/ssl.rb:182
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/openssl/ssl.rb:176
+
+      5500  "SG"
+      1300  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/postgresql/database_statements.rb:168
+      1200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:48
+      1200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+      1200  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:47
+       600  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych.rb:370
+
+      5202  "UTF-8"
+      2900  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/time/conversions.rb:50
+       600  /Users/Juan/.gem/ruby/2.2.2/gems/redis-3.2.1/lib/redis/connection/ruby.rb:49
+       300  /Users/Juan/.gem/ruby/2.2.2/gems/actionpack-4.2.3/lib/action_dispatch/middleware/static.rb:32
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/string/output_safety.rb:41
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/nokogiri-1.6.6.2/lib/nokogiri/html/document.rb:169
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/nokogiri-1.6.6.2/lib/nokogiri/html/document_fragment.rb:31
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/actionview-4.2.3/lib/action_view/helpers/form_tag_helper.rb:819
+       200  /Users/Juan/.gem/ruby/2.2.2/gems/loofah-2.0.2/lib/loofah/html/document_fragment.rb:20
+       100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/shared/_google_sitelink_search_box.slim:7
+       100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/shared/_ematic.slim:9
+       100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/shared/_google_sitelink_search_box.slim:10
+       100  /Users/Juan/jollygoodcode/[REDACTED]/app/views/shared/_ematic.slim:8
+         2  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/agent_logger.rb:168
+
+
+Retained String Report
+-----------------------------------
+       100  "Controller/home/index"
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_controller_subscriber.rb:85
+
+       100  "200"
+       100  /Users/Juan/.gem/ruby/2.2.2/gems/activesupport-4.2.3/lib/active_support/core_ext/numeric/conversions.rb:131
+
+         4  "Datastore/statement/Postgres/Shop/find"
+         3  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+
+         2  "Datastore/statement/Postgres/Popup/find"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+
+         2  "View/shared/_modal.slim/Partial"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+
+         2  "View/shared/_popup.slim/Partial"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+
+         2  "View/shared/_google_analytics.slim/Partial"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+
+         2  "View/shared/_google_sitelink_search_box.slim/Partial"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+
+         2  "Datastore/statement/Postgres/Review/find"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+
+         2  "Nested/Controller/home/index"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb:174
+
+         2  "View/shared/_popular_shops.slim/Partial"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+
+         2  "Datastore/statement/Postgres/Category/find"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+
+         2  "Datastore/statement/Postgres/FeaturedShop/find"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+
+         2  "Datastore/statement/Postgres/BlogPost/find"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+
+         2  "View/layouts/application/Rendering"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+
+         2  "View/shared/_ematic.slim/Partial"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+
+         2  "Datastore/statement/Postgres/User/find"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+
+         2  "Datastore/statement/Postgres/Identity/find"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/datastores/metric_helper.rb:20
+
+         2  "View/home/index.slim/Rendering"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/instrumentation/action_view_subscriber.rb:68
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction_metrics.rb:13
+
+         1  "International"
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:40
+
+         1  "SELECT \"users\".* FROM \"users\" WHERE \"users\".\"id\" IN (8386, 6772, 8434, 8431, 8424, 8414, 8413, 8403, 7362, 8388, 8233, 6787, 8008, 8379, 8363, 6939, 8350, 8251, 8348, 8344, 8321, 8281, 8271, 7407, 8258"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "SELECT  \"shops\".* FROM \"shops\"  ORDER BY \"shops\".\"created_at\" DESC LIMIT 3"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "shop_id"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+
+         1  "SELECT  \"featured_shops\".* FROM \"featured_shops\"  ORDER BY \"featured_shops\".\"created_at\" DESC LIMIT 1"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "SELECT \"shops\".* FROM \"shops\" WHERE \"shops\".\"id\" IN (4493)"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "SELECT \"identities\".* FROM \"identities\" WHERE \"identities\".\"user_id\" IN (7575, 6771, 7407, 8008, 8184, 7197, 8028, 8203, 8204, 8211, 7362, 8215, 8223, 8224, 8227, 8233, 8231, 8234, 7376, 8236, 8238, 82"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "SELECT  \"blog_posts\".* FROM \"blog_posts\"  ORDER BY \"blog_posts\".\"created_at\" DESC LIMIT 3"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "reviewer_id"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+
+         1  "SELECT \"categories\".* FROM \"categories\" WHERE \"categories\".\"id\" IN (149, 164)"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "---\n- home_gifts\n"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+
+         1  "ROOT"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction/trace.rb:21
+
+         1  "/"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/rack-1.6.4/lib/rack/request.rb:329
+
+         1  "cf8a2b055fc02ad5"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/transaction.rb:911
+
+         1  "---\n- dresses\n"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+
+         1  "SELECT  \"popups\".* FROM \"popups\" WHERE (takedown_at > '2015-08-13 06:34:21.048446')  ORDER BY \"popups\".\"id\" DESC LIMIT 1"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "---\n- US\n"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+
+         1  "SELECT  \"reviews\".* FROM \"reviews\" WHERE \"reviews\".\"status\" = $1  ORDER BY \"reviews\".\"created_at\" DESC LIMIT 60"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "SELECT \"shops\".* FROM \"shops\" WHERE \"shops\".\"id\" IN (5233, 5238, 5160, 5237, 4493, 4062, 3160, 5232, 3139, 5231, 4139, 4042, 3695, 3917, 5199, 5158, 5218, 5055, 4395, 5217, 3739, 3142, 5212, 5183, 5215"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/connection_adapters/abstract/query_cache.rb:25
+
+         1  "--- []\n"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+
+         1  "updated_at"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/attribute_set/builder.rb:79
+
+         1  "US"
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:48
+
+         1  "home_gifts"
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:42
+
+         1  "bags"
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:48
+
+         1  "dresses"
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/psych/scalar_scanner.rb:42
+
+         1  "---\n- International\n"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/activerecord-4.2.3/lib/active_record/coders/yaml_column.rb:25
+
+         1  "Supportability/invoke_remote_size/get_redirect_host"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/stats_engine/stats_hash.rb:39
+
+         1  "Supportability/invoke_remote_serialize/get_redirect_host"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/stats_engine/stats_hash.rb:39
+
+         1  "Supportability/invoke_remote/get_redirect_host"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/stats_engine/stats_hash.rb:39
+
+         1  "/Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/cert/cacert.pem"
+         1  /Users/Juan/.gem/ruby/2.2.2/gems/newrelic_rpm-3.12.1.298/lib/new_relic/agent/new_relic_service.rb:337
+
+         1  "\\A/Users/Juan/\\.rubies/ruby\\-2\\.2\\.2/lib/ruby/2\\.2\\.0/timeout\\.rb:102\\z"
+         1  /Users/Juan/.rubies/ruby-2.2.2/lib/ruby/2.2.0/timeout.rb:0
+
